@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: bisque;
+     /*  Esta etiqueta nos sirve para dejar un espacio en la parte superior de nuestra pagina
+    ya sea que queramos dejar el espacio para un menu o para lo que queramos*/
+}
+
+.header {
+    
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    padding: 50px 20px 0px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content:left;
+    max-width: 1260px;
+    margin: 0 auto;
+    margin-left: 60%;
+}
+
+
+
+.imagen {
+    width: 200px;
+    height: 90px;
+    
+    
+
+}
+
+.Nav-links {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+    display: flex;
+    margin-right: 0px;
+    list-style: none;  
+   
+}
+
+.cuadritos {
+    font-size: 18px;
+    margin: 0 15px;
+    line-height: 80px;
+   
+    
+}
+
+.letra:hover {
+    background-color:rgb(166, 24, 24);
+    transition: 0.5s;
+}
+
+.letra {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    width: max-content;
+    padding: 13px 10px;
+    border-radius: 3px;
+}
+
+
+.principal-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center ;    /* Centra verticalmente */
+    height: 80vh;  
+
+     
+}
+
+.first-container {
+    margin-top: 20%;
+    
+}
+
+
+.first-title {
+    font-size: 9.5em;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(166, 24, 24);
+    margin-left: 60%;
+    font-family: "playwrite is", cursive;
+}   
+
+
+.second-title {
+    font-size: 3.0em;
+    margin-left: 60%;
+}
+
+
+.second-container {
+    margin-left: 20%;
+}
