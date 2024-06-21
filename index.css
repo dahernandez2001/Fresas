@@ -14,7 +14,7 @@ body {
 .header {
     
     height: 80px;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     top:0;
     left: 0;
@@ -32,9 +32,9 @@ body {
 
 
 
-.imagen {
-    width: 200px;
-    height: 90px;
+.imagen-1 {
+    width: 700px;
+    height: 800px;
     
     
 
@@ -48,7 +48,7 @@ body {
     display: flex;
     margin-right: 0px;
     list-style: none;  
-   
+    font-family: "Belleza", sans-serif;
 }
 
 .cuadritos {
@@ -76,35 +76,69 @@ body {
 
 .principal-container {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center ;    /* Centra verticalmente */
+    justify-content: left; /* Centra horizontalmente */
+    align-items: left ;    /* Centra verticalmente */
     height: 80vh;  
 
      
 }
 
 .first-container {
-    margin-top: 20%;
+    margin-top: 00%;
     display: flex;
 }
 
 
 .first-title {
     font-size: 9.5em;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Berkshire Swash", serif;
     color: rgb(166, 24, 24);
-    margin-left: 60%;
-    font-family: "playwrite is", cursive;
+    margin-left: 30%;
+    margin-top: 5%;
 }   
 
 
 .second-title {
-    font-size: 3.0em;
-    margin-left: 60%;
+    margin-right: 80%;
+    
+   
 }
 
 
-.second-container {
-    display: flex;
+
+   
+   
+
+.second-t {
+    margin-left: 40%;
+    color: #B21802;
+    font-size: 4.0em;
+    font-family: "Berkshire Swash", serif;
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); /* Crea dos columnas, cada una con 2 fracciones del espacio disponible */
+    /* Espacio entre los elementos del grid */
+    margin-top: 5%;
+}
+.elemento-1 {
+    
+    
+    text-align: left;
+    font-family: "Belleza", sans-serif;
+    font-size: 1.5em;
     margin-left: 20%;
+
+}
+
+.elemento-2 {
+    
+    
+    text-align: left;
+    font-family: "Belleza", sans-serif;
+    font-size: 1.5em;
+    margin-left: 60%;
+
 }
