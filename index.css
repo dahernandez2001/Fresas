@@ -84,19 +84,26 @@ body {
 }
 
 .first-container {
-    margin-top: 00%;
+    margin-top: 8%;
     display: flex;
 }
 
 
 .first-title {
-    font-size: 9.5em;
+    font-size: 11.5em;
     font-family: "Berkshire Swash", serif;
     color: rgb(166, 24, 24);
     margin-left: 30%;
-    margin-top: 5%;
+    
 }   
 
+
+.imagen-1 {
+    margin-left: 10%;
+   height: 1000px;
+   width: 1000px;
+   margin-top: -20%;
+}
 
 .second-title {
     margin-right: 80%;
@@ -114,6 +121,7 @@ body {
     color: #B21802;
     font-size: 4.0em;
     font-family: "Berkshire Swash", serif;
+    margin-top: 14%;
 }
 
 
